@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@font-face {
+    font-family: digital-7;
+    src: url(fonts/digital-7.ttf);
+    font-weight: bold;
+  }
+
+body {
+    background-color: #1D545C; /* 13353A  */
+    font-size: 16px;
+    font-family: 'Righteous';
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    margin: 4rem 0 4rem 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.btn {
+    background-color: #1D545C;
+    border: none; /* Remove borders */
+    color: #ffffff; /* White text */
+    padding: 0 1rem; /* Some padding */
+    font-size: 2rem; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+#sessionLength {
+    width: 7%;
+    margin: auto;
+}
+
+#sessionLength > h2 {
+    margin: -1rem 0 0 0;
+    padding: 0;
+}
+
+#session {
+    width: 25%;
+    height: 22rem;
+    border: 0.8rem solid #13353A ;
+    border-radius: 4rem;
+    margin: 1rem auto 1rem auto;
+}
+
+#timer {
+    font-size: 12rem;
+    width: 25rem;
+    font-family: 'digital-7', arial;
+    margin: auto;
+}
+
+#sessionControl {
+    width: 6%;
+    margin: auto;
+}
+
+#playBtn, #pauseBtn, #resetBtn, #minusBtn, #plusBtn, #minutes, #seconds, #colon {
+    padding: 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'> 
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Clock!</title>
+</head>
+<body>
+    <h1>Pomodoro Clock</h1>
+
+    <!-- Session Length section -->
+    <h2>Session Length</h2>
+    <div class="row" id="sessionLength">
+        <button class="col-md-2 btn" id="minusBtn"><i class="glyphicon glyphicon-minus"></i></button>
+        <h2 class="col-md-8" id="duration">25</h2>
+        <button class="col-md-2 btn" id="plusBtn"><i class="glyphicon glyphicon-plus"></i></button>
+    </div>
+    <!-- end of Session Length section -->
+
+    <!-- Timer section -->
+    <div class="row" id="session">
+        <h2 class="row" id="sessionStatus">Session</h2>
+        <h2 class="row" id="timer">
+            <span class="col-md-5" id="minutes">25</span>
+            <span class="col-md-2" id="colon">:</span>
+            <span class="col-md-5" id="seconds">00</span>
+        </h2>
+    </div>
+    <!-- end of Timer section-->
+
+    <!-- Session Control Buttons -->
+    <div class="row" id="sessionControl">
+        <button class="col-md-4 btn" id="playBtn"><i class="glyphicon glyphicon-play"></i></button>
+        <button class="col-md-4 btn" id="pauseBtn"><i class="glyphicon glyphicon-pause"></i></button>
+        <button class="col-md-4 btn" id="resetBtn"><i class="glyphicon glyphicon-repeat"></i></button>
+    </div>
+    <!-- end of Session Control Buttons-->
+    
+    <!-- link javascript code-->
+    <script src="pomodoroClock.js"></script>
+</body>
+</html>
