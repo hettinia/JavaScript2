@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator!</title>
+</head>
+<body>
+    <!-- tipCalculator section-->
+    <div id="tipCalculator">
+        <h1>Tip Calculator</h1>
+
+        <!--bill cost -->
+        <h2>How much was your bill?</h2>
+        <div id="billCostArea">
+            <span><h2>$</h2></span>
+            <input type="number" class="inputItem" id="billCost" placeholder="$">
+        </div>
+        <!-- end of bill cost-->
+
+        <!-- service level-->
+        <h2>How was your service</h2>
+        <select id="serviceLevel" class="inputItem">
+            <option value = "">Choose an option...</option>
+            <option value = "30">30% - Outstanding</option>
+            <option value = "20">20% - Good</option>
+            <option value = "15">15% - It was Ok</option>
+            <option value = "10">10% - Bad</option>
+            <option value = "5">5% - Terrible</option>
+        </select>
+        <!-- end of service level-->
+
+        <!--people count -->
+        <h2>How many people are sharing the bill?</h2>
+        <input type="number" class="inputItem" id="peopleCount" value="1">
+        <!-- end of people count-->
+
+        <!--calculate button -->
+        <button id="calculateBtn">CALCULATE!</button>
+        <!-- end of calculate button-->
+
+        <!-- tip amount result -->
+        <h2 id="tipAmount">Tip Amount</h2>
+        <h2 id="amount"></h2>
+        <h2 id="each">each</h2>
+        <!--end of tip amount result-->
+
+    </div>
+    <!-- end of tipCalculator section-->
+    
+    <script src="tipCalculator.js"></script>
+</body>
+</html>
